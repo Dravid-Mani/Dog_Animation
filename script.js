@@ -12,8 +12,8 @@ const playerImage= new Image();
 playerImage.src='shadow_dog.png'
 const spriteWidth=575;
 const spriteHeight=523;
-let gameFrame=4;
-const staggerFrames=1;
+let gameFrame=0;
+const staggerFrames=3;
 const spriteAnimations=[];
 const animationStates=[
     {
